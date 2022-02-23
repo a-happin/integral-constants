@@ -1,5 +1,5 @@
 {
   "values": [
-    "lib:integral_constants/load_once"
+    "integral_constants:load_once"
   ]
 }

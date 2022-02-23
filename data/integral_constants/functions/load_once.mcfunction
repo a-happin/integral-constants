@@ -1,5 +1,5 @@
-#> lib:integral_constants/load_once
-#@within tag/function minecraft:load_once
+#> integral_constants:load_once
+#@within tag/function load_once
 
 scoreboard objectives remove const
 scoreboard objectives add const dummy
@@ -70,6 +70,4 @@ scoreboard players set #2^28 const 268435456
 scoreboard players set #2^29 const 536870912
 scoreboard players set #2^30 const 1073741824
 scoreboard players set #2^31 const -2147483648
-
-scoreboard players set #max const 2147483647
-scoreboard players set #min const -2147483648
+scoreboard players set #2^31-1 const 2147483647
